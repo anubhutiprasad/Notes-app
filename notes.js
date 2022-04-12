@@ -31,7 +31,7 @@ function showNotes()
    // appending the card by forEach loop
   notesObj.forEach( function(elements,index) {
       //my-2 means margin of 2 from top-bottom(horizontally), mx-2 means margin of 2 from left-right(vertically) 
-      html += `<div class="notecard my-2 mx-2 card" style="width: 18rem;">
+      html += `<div class="notecard my-2 mx-2 card" style="width: 18rem; background-color:antiquewhite;">
                   <div class="card-body">
                     <h5 class="card-title">Notes ${index+1}</h5>
                     <p class="card-text">${elements}</p>
